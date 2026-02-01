@@ -1,5 +1,5 @@
-# 使用 debian:13.3-slim 作为基础镜像
-FROM debian:13.3-slim
+# 使用 debian:13 作为基础镜像
+FROM debian:13
 
 # 设置时区为亚洲/上海
 ENV TZ=Asia/Shanghai
