@@ -1,5 +1,5 @@
-# 使用 Ubuntu 22.04 作为基础镜像
-FROM ubuntu:22.04
+# 使用 debian:13.3-slim 作为基础镜像
+FROM debian:13.3-slim
 
 # 设置时区为亚洲/上海
 ENV TZ=Asia/Shanghai
